@@ -59,7 +59,7 @@ def OTP(k, m):
 
     :param k: a string representing the key that is used during the encryption process.
     :param m: a string representing the message that is going to be encrypted.
-    :return: a string representing the cipher produced by the encryption process.
+    :return: a string representing the ciphertext produced by the encryption process.
     """
 
     # Use XOR after the conversion to bit strings.
