@@ -8,8 +8,8 @@ The current project was conducted as a part of the "Foundations of Cryptography"
 
 In order to execute the code of this project, the following Python 3.8 libraries are required:
 
-- [NumPy] (https://github.com/numpy/numpy)
-- [Matplotlib] (https://github.com/matplotlib/matplotlib)
-- [PyCryptodome] (https://github.com/Legrandin/pycryptodome)
-- [mpmath] (https://github.com/fredrik-johansson/mpmath)
+- [NumPy](https://github.com/numpy/numpy)
+- [Matplotlib](https://github.com/matplotlib/matplotlib)
+- [PyCryptodome](https://github.com/Legrandin/pycryptodome)
+- [mpmath](https://github.com/fredrik-johansson/mpmath) 
 
