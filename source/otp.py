@@ -78,7 +78,8 @@ if __name__ == '__main__':
 
     ciphertext = OTP(key, original_message)
 
-    print("The original message: " + original_message)
-    print("The key: " + key)
-    print("The cypher given after OTP encryption: " + ciphertext)
-    print("The message given after OTP decryption: " + OTP(key, ciphertext))
+    print("The original message: {}".format(original_message))
+    print("The key: {}".format(key))
+    print("The cypher given after OTP encryption: {}".format(ciphertext))
+    print("The message given after OTP decryption: {}".format(OTP(key, ciphertext)))
+

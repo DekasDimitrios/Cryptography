@@ -73,7 +73,8 @@ if __name__ == "__main__":
     original_message = "WE ALL MAKE MISTAKES AND WE ALL PAY A PRICE".replace(" ", "")
     ciphertext = RC4(key, original_message)
 
-    print("The original message: " + original_message)
-    print("The key: " + key)
-    print("The cypher given after RC4 encryption: " + ciphertext)
-    print("The message given after RC4 decryption: " + RC4(key, ciphertext))
+    print("The original message: {}".format(original_message))
+    print("The key: {}".format(key))
+    print("The cypher given after RC4 encryption: {}".format(ciphertext))
+    print("The message given after RC4 decryption: {}".format(RC4(key, ciphertext)))
+
